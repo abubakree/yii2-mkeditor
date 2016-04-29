@@ -16,6 +16,6 @@ namespace jehdu\mkeditor;
 class newPHPClass {
     //put your code here
     public static function run(){
-        echo "test";
+        echo "test1";
     }
 }
