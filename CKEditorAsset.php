@@ -1,0 +1,19 @@
+<?php
+namespace jehdu\mkeditor;
+use yii\web\AssetBundle;
+/**
+ * Asset bundle for the Materialize css files.
+ *
+ * @author kuakling <kuakling@gmail.com>
+ * @since 2.0
+ */
+class CKEditorAsset extends AssetBundle
+{
+    public $sourcePath = '@vendor/benit/ckeditor-dev';
+    public $css = [
+    ];
+    public $js = [
+      'ckeditor.js',
+    ];
+    public $depends = ['yii\web\JqueryAsset'];
+}
