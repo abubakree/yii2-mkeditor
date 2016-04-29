@@ -1,6 +1,6 @@
-# yii2-keditor
+# yii2-mkeditor
 CKEditor and KCFinder
-Keditor
+Mkeditor
 =======
 CKEditor and KCFinder
 
