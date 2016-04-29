@@ -44,3 +44,8 @@ echo $form->field($model, 'detail')->widget(
 )->label(false); ?>
 ```
 
+Usage with On Change
+--------------------
+
+
+
