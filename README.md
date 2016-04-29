@@ -34,7 +34,7 @@ Convert textarea to CKEditor
 <?php
 //CKEditor
 echo $form->field($model, 'detail')->widget(
-  \kuakling\keditor\CKEditor::className(), 
+  \jehdu\mkeditor\CKEditor::className(), 
   [
     'uploadDir' => '/var/www/public_html/UserFiles',
     'uploadURL' => '/UserFiles/',
