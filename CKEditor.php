@@ -74,6 +74,8 @@ class CKEditor extends InputWidget {
 
             $config = $kcfinder->basePath . '/conf/config.php';
             $data = file_get_contents($config);
+            $data = str_replace('"upload"', "'upload'", $data);
+            $data = str_replace('""',"''", $data);
             $data = str_replace("'disabled' => true,", "'disabled' => false,", $data);
             $data = str_replace("'uploadURL' => 'upload',", "'uploadURL' => '{$this->uploadURL}',", $data);
             $data = str_replace("'uploadDir' => '',", "'uploadDir' => '{$this->uploadDir}',", $data);

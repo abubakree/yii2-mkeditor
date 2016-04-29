@@ -17,4 +17,8 @@ class KCFinderAsset extends AssetBundle
     public $js = [
     ];
     public $depends = ['yii\web\JqueryAsset'];
+    
+    public $publishOptions = [
+        'forceCopy'=>true,
+    ];
 }
