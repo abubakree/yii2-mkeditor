@@ -16,4 +16,7 @@ class CKEditorAsset extends AssetBundle
       'ckeditor.js',
     ];
     public $depends = ['yii\web\JqueryAsset'];
+    public $publishOptions = [
+        'forceCopy'=>true,
+    ];
 }

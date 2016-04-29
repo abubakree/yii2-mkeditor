@@ -14,7 +14,6 @@
     "prefer-stable": true,
     "require": {
         "yiisoft/yii2": "*",
-        "benit/ckeditor-dev": "*",
         "sunhater/kcfinder": "*"
     },
     "autoload": {
