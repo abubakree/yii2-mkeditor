@@ -1,5 +1,5 @@
 {
-    "name": "jehdu/yii2-keditor",
+    "name": "jehdu/yii2-mkeditor",
     "description": "CKEditor and KCFinder",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
