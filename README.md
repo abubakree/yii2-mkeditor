@@ -47,5 +47,29 @@ echo $form->field($model, 'detail')->widget(
 Usage with On Change
 --------------------
 
+```php
+<?php $this->registerJs(" 
+    var content = '';
+    CKEDITOR.on('instanceCreated', function (e) {
+    content = e.editor.getData();
+      e.editor.on('change', function (ev) {
+        content = ev.editor.getData();
+      });
+    });
 
+"); ?>
+
+<?php
+//CKEditor
+echo $form->field($model, 'detail')->widget(
+  \jehdu\mkeditor\CKEditor::className(), 
+  [
+    'uploadDir' => '/var/www/public_html/UserFiles',
+    'uploadURL' => '/UserFiles/',
+    'filemanager'=>true, //true = enabled kcfinder, false = disabled kcfinder
+    'preset'=>'full', //toolbar -> basic, standard, full
+    'onChange' => true
+  ]
+)->label(false); ?>
+```
 
