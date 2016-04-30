@@ -44,7 +44,7 @@ echo $form->field($model, 'detail')->widget(
 )->label(false); ?>
 ```
 Example
-<img src="blob:https%3A//drive.google.com/cb620c5c-0920-4c3a-8206-83632a771388"/>
+<img src="http://ikhlasservice.com/uploads/capture/upload.png"/>
 
 Usage with On Change
 --------------------
@@ -75,4 +75,5 @@ echo $form->field($model, 'detail')->widget(
 )->label(false); ?>
 ```
 Example
-<img src="blob:https%3A//drive.google.com/f5956f81-8790-449f-a8fc-831c84183ed8"/>
+<img src="http://ikhlasservice.com/uploads/capture/Update Article.png"/>
+
