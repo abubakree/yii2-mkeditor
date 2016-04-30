@@ -14,7 +14,8 @@
     "prefer-stable": true,
     "require": {
         "yiisoft/yii2": "*",
-        "sunhater/kcfinder": "*"
+        "sunhater/kcfinder": "*",        
+        "2amigos/yii2-ckeditor-widget": "~1.0"
     },
     "autoload": {
         "psr-4": {
