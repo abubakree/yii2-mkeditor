@@ -81,5 +81,5 @@ Example<br>
 Credit
 ------
 
-Ahmad Jehdu
+[Jehdu Ahmad](https://github.com/jehdu)
 
