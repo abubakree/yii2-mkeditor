@@ -77,7 +77,8 @@ echo $form->field($model, 'detail')->widget(
 Example<br>
 <img src="http://ikhlasservice.com/uploads/capture/Update Article.png"/>
 
-credit
+
+CREDIT
 ------
 
 Ahmad Jehdu
