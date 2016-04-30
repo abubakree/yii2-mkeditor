@@ -1,5 +1,5 @@
 <?php
-namespace jehdu\mkeditor;
+namespace firdows\mkeditor;
 
 use yii\web\AssetBundle;
 
