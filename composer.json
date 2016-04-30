@@ -1,5 +1,5 @@
 {
-    "name": "jehdu/yii2-mkeditor",
+    "name": "firdows/yii2-mkeditor",
     "description": "CKEditor and KCFinder",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "jehdu\\mkeditor\\": ""
+            "firdows\\mkeditor\\": ""
         }
     },
     "extra": {
