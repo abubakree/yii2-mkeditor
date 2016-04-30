@@ -12,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require jehdu/yii2-mkeditor "*"
+composer require firdows/yii2-mkeditor "*"
 ```
 
 or add
 
 ```
-"jehdu/yii2-mkeditor": "*"
+"firdows/yii2-mkeditor": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -34,7 +34,7 @@ Convert textarea to CKEditor
 <?php
 //CKEditor
 echo $form->field($model, 'detail')->widget(
-  \jehdu\mkeditor\CKEditor::className(), 
+  \firdows\mkeditor\CKEditor::className(), 
   [
     'uploadDir' => '/var/www/public_html/UserFiles',
     'uploadURL' => '/UserFiles/',
@@ -64,7 +64,7 @@ Usage with On Change
 <?php
 //CKEditor
 echo $form->field($model, 'detail')->widget(
-  \jehdu\mkeditor\CKEditor::className(), 
+  \firdows\mkeditor\CKEditor::className(), 
   [
     'uploadDir' => '/var/www/public_html/UserFiles',
     'uploadURL' => '/UserFiles/',
@@ -81,5 +81,5 @@ Example<br>
 Credit
 ------
 
-[Jehdu Ahmad](https://github.com/jehdu)
+[Jehdu Ahmad](https://github.com/firdows)
 
