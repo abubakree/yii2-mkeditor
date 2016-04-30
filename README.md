@@ -78,7 +78,7 @@ Example<br>
 <img src="http://ikhlasservice.com/uploads/capture/Update Article.png"/>
 
 
-CREDIT
+Credit
 ------
 
 Ahmad Jehdu
